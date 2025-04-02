@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    background-image: url('5652030.webp');
+    background-position: center;
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+header .logo span {
+    color: #ff4e05;
+    font-size: 35px;
+}
+
+header nav a {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    text-transform: capitalize;
+    margin: 10px;
+    padding: 8px;
+    letter-spacing: .6px;
+    transition: .3s ease;
+    border-bottom: transparent solid 3px;
+}
+
+header nav a:hover {
+    color: red;
+    border-bottom: red solid 3px;
+}
+
+.btn {
+    
+}
