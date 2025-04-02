@@ -29,7 +29,7 @@ header {
 }
 
 header .logo {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 700;
     color: white;
     cursor: pointer;
@@ -60,5 +60,26 @@ header nav a:hover {
 }
 
 .btn {
-    
+    display: inline-block;
+    padding: 8px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: red;
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: .4s ease;
+}
+
+.btn:hover {
+    background-color: red;
+    color: whitesmoke;
+}
+
+section {
+    padding: 5%;
+}
+
+.Home {
+
 }
