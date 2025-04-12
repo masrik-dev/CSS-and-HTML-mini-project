@@ -123,7 +123,7 @@ body {
     }
     50%, 100% {
         opacity: 1;
-        z-index: 1;
+        z-index: 5;
     }
 }
 
@@ -201,4 +201,8 @@ body {
 .toggle-right {
     right: 0;
     transform: translateX(0);
+}
+
+.container.active .toggle-right {
+    transform: translateX(200%);
 }
